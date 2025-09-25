@@ -10,7 +10,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Elendev\\ComposerPush\\": "src/"}
+        "psr-4": {
+          "Elendev\\ComposerPush\\": "src/"
+        }
     },
     "require": {
         "php": ">=7.2 || ^8.0",
@@ -19,8 +21,8 @@
         "ext-zip": "*",
         "composer-plugin-api": "^1.1|^2.0",
         "guzzlehttp/guzzle": "^6.0|^7.0",
-        "symfony/finder": "^4.0|^5.0|^6.0",
-        "symfony/filesystem": "^4.0|^5.0|^6.0"
+        "symfony/finder": "^4.0|^5.0|^6.0|^7.0",
+        "symfony/filesystem": "^4.0|^5.0|^6.0|^7.0"
     },
     "extra": {
         "class": "Elendev\\ComposerPush\\Plugin"
@@ -33,7 +35,6 @@
     "scripts": {
         "test": "phpunit tests",
         "cs-fixer": "php-cs-fixer fix src"
-
     },
     "replace": {
         "elendev/nexus-composer-push":  "*"
