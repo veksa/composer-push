@@ -1,5 +1,5 @@
 {
-    "name": "elendev/composer-push",
+    "name": "veksa/composer-push",
     "description": "Provide a Push command to composer to push to repositories",
     "type": "composer-plugin",
     "license": "Apache-2.0",
